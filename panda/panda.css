@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: c
+  enter;
+  background-color: aqua;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 300px;
+  margin: 20px;
+}
+.container .btn{
+  display: flex;
+  gap: 25px;
+  width: 100px;
+}
+.btn a{
+  text-decoration: none;
+  color: #111;
+  background: #fff;
+  border-radius: 3px;
+}
